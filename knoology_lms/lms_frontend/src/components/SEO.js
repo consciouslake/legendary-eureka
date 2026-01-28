@@ -1,0 +1,32 @@
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
+
+const SEO = ({ title, description, name, type }) => {
+    return (
+        <Helmet>
+            {/* Standard metadata tags */}
+            <title>{title} | Knoology LMS</title>
+            <meta name='description' content={description} />
+
+            {/* Facebook tags */}
+            <meta property="og:type" content={type} />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={description} />
+
+            {/* Twitter tags */}
+            <meta name="twitter:creator" content={name} />
+            <meta name="twitter:card" content={type} />
+            <meta name="twitter:title" content={title} />
+            <meta name="twitter:description" content={description} />
+        </Helmet>
+    );
+}
+
+SEO.defaultProps = {
+    title: 'Knoology LMS',
+    description: 'Transform your learning journey with Knoology LMS. Access top quality courses from expert instructors.',
+    name: 'Knoology LMS',
+    type: 'website'
+};
+
+export default SEO;

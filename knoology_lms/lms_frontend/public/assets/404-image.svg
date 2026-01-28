@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  <g transform="translate(100, 100)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="#dc3545">404</text>
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="30" fill="#6c757d">Page not found</text>
+    <text x="0" y="110" font-family="Arial, sans-serif" font-size="16" fill="#6c757d">The page you are looking for doesn't exist or has been moved.</text>
+  </g>
+</svg>
