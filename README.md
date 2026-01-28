@@ -1,6 +1,6 @@
-# 🎓 Legendary Eureka - Learning Management System (LMS)
+# 🎓 Knoology LMS - Learning Management System
 
-**Legendary Eureka** is a full-featured Learning Management System built to bridge the gap between Instructors and Learners. It features a robust **Django** backend, a dynamic **React** frontend, and integrates secure payments via **Razorpay**.
+**Knoology LMS** is a full-featured Learning Management System built to bridge the gap between Instructors and Learners. It features a robust **Django** backend, a dynamic **React** frontend, and integrates secure payments via **Razorpay**.
 
 ## 🚀 Key Features
 
